@@ -1,7 +1,7 @@
 Jabb2Rss
 ========
 
-Date de développement : *2010*
+Date de développement : **2010**
 
 Outil permettant de recevoir les mises à jour d'un flux RSS sur Jabber/XMPP/Google Talk. Développé en quelques heures dans le cadre de la **Nuit de l'Info 2010**, d'où le design "épuré" et le code fait un peu à l'arrache.
 
