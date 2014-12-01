@@ -1,0 +1,8 @@
+# Fichier de configuration
+config.txt
+
+# Dossier de cache RSS
+rss/
+
+# Fichiers SVN pour XMPPHP
+XMPPHP/.svn

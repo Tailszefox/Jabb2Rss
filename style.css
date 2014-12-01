@@ -1,0 +1,79 @@
+#site
+{
+	width: 100%;
+	position: absolute;
+	right: 0;
+}
+
+#logo
+{
+	font-size: 20pt;
+	border: 1px solid black;
+	text-align: center;
+	
+	width: 50%;
+	margin: auto;
+	
+	padding: 10px;
+}
+
+#description
+{
+	width: 90%;
+	margin: auto;
+	
+	display: none;
+}
+
+#apropos
+{
+	text-align: center;
+	margin: 5px;
+}
+
+#aproposTexte
+{
+	text-decoration: underline;
+	cursor: help;
+	
+	padding: 5px;
+}
+
+#inscription
+{
+	float: left;
+	width: 45%;
+	border: 1px solid black;
+	
+	padding: 5px;
+	text-align: center;
+	
+	margin-left: 10px;
+}
+
+#login
+{
+	float: right;
+	width: 45%;
+	border: 1px solid black;
+	
+	padding: 5px;
+	text-align: center;
+}
+
+.left
+{
+	float: left;
+	width: 49%;
+}
+
+.right
+{
+	float: right;
+	width: 49%;
+}
+
+.ajoutFlux
+{
+	cursor: pointer;
+}
