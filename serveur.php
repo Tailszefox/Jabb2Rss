@@ -14,7 +14,8 @@ $lastRss->CDATA = 'content';
 $lastRss->cp = 'UTF-8';
 
 // Connexion à Jabber
-$conn = new XMPPHP_XMPP($config[3], $config[4], $config[5], $config[6], 'xmpphp', 'jabber.org', $printlog=False);
+require("config.php");
+$conn = new XMPPHP_XMPP($jabber_hostname, $jabber_port, $jabber_username, $jabber_password, 'xmpphp', 'jabber.org', $printlog=False);
 
 echo date('d/m/y H:i:s') . "\n";
 

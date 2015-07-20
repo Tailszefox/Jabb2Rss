@@ -60,7 +60,8 @@ if(isset($_POST['adresse']) && isset($_POST['motdepasse']) && isset($_POST['rss'
 		}
 		
 		// Envoi d'un message de confirmation à l'utilisateur
-		$conn = new XMPPHP_XMPP($config[3], $config[4], $config[5], $config[6], 'xmpphp', 'jabber.org', $printlog=False);
+		require("config.php");
+		$conn = new XMPPHP_XMPP($jabber_hostname, $jabber_port, $jabber_username, $jabber_password, 'xmpphp', 'jabber.org', $printlog=False);
 		$conn->connect();
 		$conn->processUntil('session_start');
 		$conn->message($donnees['adresse'], 'Merci de votre inscription au service Jabb2Rss ! Utilisez désormais le formulaire de droite pour vous connecter, modifier vos flux RSS ou vous désinscrire.');
