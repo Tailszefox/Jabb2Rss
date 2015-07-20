@@ -1,0 +1,10 @@
+<?php
+$mysql_hostname = "localhost";
+$mysql_username = "username";
+$mysql_password = "password";
+
+$jabber_hostname =  "jabber.org";
+$jabber_port =      5222;
+$jabber_username =  "example@jabber.org";
+$jabber_password =  "password";
+?>
